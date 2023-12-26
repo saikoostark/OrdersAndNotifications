@@ -18,9 +18,6 @@ public class ProductController {
 
     @GetMapping("/")
     public List<Product> getAllProduct() {
-
-
-        
         return productRepo.getAll();
     }
 }
