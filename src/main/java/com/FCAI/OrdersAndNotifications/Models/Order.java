@@ -8,6 +8,4 @@ import lombok.Data;
 @Data
 abstract public class Order {
 
-    abstract public void addOrder(Order order);
-
 }

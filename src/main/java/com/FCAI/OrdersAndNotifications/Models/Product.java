@@ -7,7 +7,7 @@ public class Product {
     private String serialNumber;
     private String name;
     private String vendor;
-    private Category category;
+    private String Category;
     private double price;
-
+    private int amount;
 }
