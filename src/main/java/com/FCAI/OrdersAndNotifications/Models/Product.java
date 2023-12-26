@@ -9,5 +9,5 @@ public class Product {
     private String vendor;
     private String Category;
     private double price;
-    private int amount;
+    private int available;
 }

@@ -5,9 +5,12 @@ import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
 
+import org.springframework.stereotype.Service;
+
 import com.FCAI.OrdersAndNotifications.Models.Product;
 import com.FCAI.OrdersAndNotifications.Utils.ProductGenerator;
 
+@Service
 public class ImpelementedProductRepository implements ProductRepository {
 
     private List<Product> products;

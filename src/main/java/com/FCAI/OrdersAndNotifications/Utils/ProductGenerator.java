@@ -15,14 +15,14 @@ public class ProductGenerator {
         List<Product> productList = new ArrayList<>();
         Random random = new Random();
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 20; i++) {
             Product product = new Product();
             product.setSerialNumber(generateSerialNumber());
             product.setName(generateProductName());
             product.setVendor(generateVendor());
             product.setCategory(generateCategory());
             product.setPrice(generateRandomPrice());
-            product.setAmount(random.nextInt(100)); // Random amount, adjust as needed
+            product.setAvailable(random.nextInt(100)); // Random amount, adjust as needed
             productList.add(product);
         }
 
